@@ -11,5 +11,8 @@ call activate learn-python
 call set https_proxy=http://%id%:%pw%@appgw.amk.st.com:8080
 call git config --global user.name "simhuiyee"
 call git config --global user.email "cheryl.huiyee@gmail.com"
-call git clone https://github.com/simhuiyee/Python-Training/DiceRolling.git
+call git add .
+call git commit -m "%cm%"
+call git push
+pause
 
